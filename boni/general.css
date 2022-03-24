@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  background: none;
+  font-family: "Armata";
+}
+
+/* hero section */
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+}
+.nav {
+  margin: 50px;
+  margin-right: 200px;
+  display: flex;
+  gap: 30px;
+  transition: all 0.5s;
+  background: none;
+}
+
+.nav-btn {
+  border: none;
+  background: none;
+  color: white;
+}
+
+.nav-btn {
+  padding: 10px;
+  background: none;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #e67e22;
+  transition: border-bottom 0.2s;
+  text-decoration: none;
+  color: white;
+}
+.nav-btn:active {
+  background: none;
+}
+.hero-header {
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  text-transform: uppercase;
+  /* background: none; */
+  color: white;
+}
+
+.hero-secondary-header {
+  margin: 60px;
+  font-size: 25px;
+  margin-left: 200px;
+  margin-top: 30px;
+  background: none;
+  color: white;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/hero-dog.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  transition: all 0.3s;
+}
+
+.nav-btn-1 {
+  border: 1px solid #e67e22;
+  background: none;
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #e67e22;
+}
+
+.nav-btn-1:hover {
+  cursor: pointer;
+  background-color: #e67e22;
+  color: white;
+  transition: 0.5s;
+}
+
+.nav-btn-1:active {
+  background: none;
+  color: rgba(255, 255, 255, 0.774);
+}
+a {
+  background: none;
+}
+
+/* about section */
+
+.about-header {
+  font-size: 30px;
+  word-spacing: 5px;
+  background: none;
+  margin: 100px 0 100px 0;
+  font-family: "Armata";
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.705);
+}
+.about-header::after {
+  display: block;
+  height: 2px;
+  background-color: #e67622;
+  content: " ";
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.about-text {
+  margin-top: 20px;
+  font-size: 20px;
+  background: none;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.about {
+  /* background: rgba(128, 128, 128, 0.096); */
+  margin: 0 200px 0 200px;
+}
+
+.diffrent-dogs {
+  display: grid;
+  /* grid-template-columns: 1fr 2fr; */
+  /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.breeds-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.breeds-img {
+  height: 124px;
+  width: 124px;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.test-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.breeds-img {
+  align-self: center;
+  justify-self: center;
+}
+
+.breed-1 {
+  height: 300px;
+  width: 200px;
+}
+
+.breed-2 {
+  height: 300px;
+  width: 300px;
+}
+
+.breed-3 {
+  height: 300px;
+  width: 200px;
+}
+
+.breed-4 {
+  height: 300px;
+  width: 200px;
+}
+
+.carousel {
+  background-color: #e67d22;
+  padding: 10%;
+}
+.carousel-img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.carousel-text {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 300px 0 300px;
+  font-family: "Staatliches";
+}
+
+.card {
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 10%);
+  margin-bottom: 200px;
+  margin-top: 100px;
+  border-radius: 15px;
+  transition: all 0.5s;
+  border: none;
+}
+.card:hover {
+  transform: translate(0, -4%);
+}
+
+.card-text {
+  margin: 20px;
+  text-align: center;
+}
+
+.card-header {
+  text-align: center;
+  background-color: white;
+}
+
+.row {
+  gap: 125px;
+}
+
+.card-img-top {
+  height: 49%;
+}
